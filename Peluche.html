@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluche Caligari - Página de Fans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Peluche Caligari - Página de Fans</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#equipo">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a la Página de Fans de Peluche Caligari</h2>
+            <p>¡Sigue todas las noticias, eventos y actualizaciones sobre tu equipo favorito!</p>
+        </section>
+        
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <article>
+                <h3>¡Victoria de Peluche Caligari contra [Nombre del equipo rival]!</h3>
+                <p><strong>Fecha:</strong> [Fecha del partido]</p>
+                <p>El equipo Peluche Caligari logró una impresionante victoria con un marcador de [Resultado]. [Nombre del Jugador] destacó con [Número] goles, llevando al equipo a la victoria. ¡Gran trabajo, Peluche Caligari!</p>
+                <p><strong>Próximo Partido:</strong></p>
+                <p>🗓 <strong>Fecha:</strong> [Fecha del próximo partido]</p>
+                <p>⏰ <strong>Hora:</strong> [Hora]</p>
+                <p>📍 <strong>Lugar:</strong> [Estadio/Plataforma de transmisión]</p>
+            </article>
+        </section>
+        
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Oponente</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>[Fecha]</td>
+                        <td>[Nombre del equipo rival]</td>
+                        <td>[Resultado]</td>
+                    </tr>
+                    <!-- Añadir más filas según sea necesario -->
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="equipo">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos la comunidad oficial de fans del equipo Peluche Caligari de la Kings League América. Únete a nosotros para seguir todas las noticias, eventos y resultados del equipo.</p>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="send_message.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Peluche Caligari - Página de Fans. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
